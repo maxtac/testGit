@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+  #container{
+    width: 100%;
+  }
+  #container header{
+    margin: 10px 30px;
+  }
+  #container header nav{
+    width: 100%;
+  }
+
+  #container #main{
+    background-color: #fff;
+    width: 80%;
+    margin: 0 10%;
+  }
+
+  #container #main h2{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #main h2 a{ color: red; }
+  #main article h3{
+    font-size: 24px;
+    color: green;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
